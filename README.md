@@ -1,4 +1,4 @@
-# 🚀 Requirement Ambiguity Detection and Verification System
+# Requirement Ambiguity Detection and Verification System
 
 <div align="center">
 
