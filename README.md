@@ -1,73 +1,135 @@
 # 🚀 Requirement Ambiguity Detection and Verification System
 
-A Software Verification and Validation (SV&V) project that automatically detects ambiguity in Software Requirement Specification (SRS) documents using rule-based Natural Language Processing (NLP).
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python)
+![Flask](https://img.shields.io/badge/Flask-Web%20Application-black?style=for-the-badge&logo=flask)
+![NLP](https://img.shields.io/badge/NLP-Requirement%20Analysis-purple?style=for-the-badge)
+![SV&V](https://img.shields.io/badge/Domain-SV%26V-green?style=for-the-badge)
+![Automation](https://img.shields.io/badge/Selenium-Test%20Automation-orange?style=for-the-badge)
+
+### 🧠 Intelligent Software Requirement Verification using Rule-Based NLP
+
+*A Software Verification & Validation (SV&V) system that automatically detects ambiguity in Software Requirement Specification (SRS) documents.*
+
+</div>
 
 ---
 
-# 📌 Project Overview
+# 🌌 Overview
 
-Requirement ambiguity is one of the major causes of software failure.  
-Ambiguous requirements can lead to:
+Requirement ambiguity is one of the leading causes of software project failure.
 
-- Misinterpretation
-- Incorrect implementation
-- Increased development cost
-- Project delays
+Poorly written requirements can introduce:
 
-This project helps identify ambiguous requirements automatically and generates professional verification reports.
+- ❌ Misinterpretation
+- ⚠️ Incorrect implementation
+- 💸 Increased development cost
+- 🕒 Project delays
+- 🔁 Rework during SDLC phases
+
+This project introduces an intelligent **Requirement Ambiguity Detection & Verification System** that automatically analyzes Software Requirement Specification (SRS) documents using rule-based Natural Language Processing (NLP).
+
+The platform detects:
+- Ambiguous statements
+- Weak verbs
+- Vague terminology
+- Requirement quality issues
+
+and generates professional verification reports with severity analysis and quality scoring.
 
 ---
 
-# 🎯 Objectives
+# 🎯 Project Objectives
 
-- Detect ambiguous requirements automatically
-- Identify vague words and weak verbs
-- Classify ambiguity severity
-- Generate SRS quality score
-- Produce downloadable PDF verification reports
-- Validate system behavior using Selenium automation
+## 🔹 Primary Goals
+
+✅ Automatically detect ambiguous requirements  
+✅ Identify vague words and weak verbs  
+✅ Classify ambiguity severity  
+✅ Generate SRS quality score  
+✅ Produce downloadable PDF verification reports  
+✅ Validate system behavior using Selenium automation  
 
 ---
 
-# ✨ Features
+# 🚀 Features
 
-## ✅ Core Features
-- Upload SRS documents
-- Support for:
+---
+
+# ✅ Core Features
+
+- 📄 Upload SRS documents
+- 📚 Multi-format support:
   - TXT
   - PDF
   - DOCX
-- Requirement extraction
-- Ambiguity detection
-- Weak verb detection
-- Highlight ambiguous terms
+- 🧠 Requirement extraction
+- 🔍 Ambiguity detection
+- ⚠️ Weak verb identification
+- ✨ Highlight ambiguous terms
 
 ---
 
-## 🔥 Advanced Features
-- Severity classification
-  - Low
-  - Medium
-  - High
-- Confidence scoring
-- Overall SRS Quality Score
-- Interactive dashboard
-- Enhanced PDF report generation
-- Selenium automated testing
+# 🔥 Advanced Features
+
+## 📊 Severity Classification
+Requirements are classified as:
+- 🟢 Low
+- 🟡 Medium
+- 🔴 High
+
+---
+
+## 📈 Confidence Scoring
+Each detected ambiguity receives:
+- Detection confidence
+- Severity intensity
+- Validation metrics
+
+---
+
+## 🏆 SRS Quality Score
+The platform computes an overall software requirement quality index based on:
+- Requirement clarity
+- Ambiguity density
+- Weak terminology usage
+- Requirement consistency
+
+---
+
+## 📑 Professional PDF Reports
+Generates downloadable:
+- Requirement verification reports
+- Ambiguity summaries
+- Severity analysis sheets
+- SRS quality metrics
+
+---
+
+## 🤖 Selenium Automation Testing
+Automated browser testing validates:
+- File uploads
+- Dashboard rendering
+- End-to-end workflow behavior
 
 ---
 
 # 🧠 Technologies Used
 
+<div align="center">
+
 | Technology | Purpose |
-|------------|---------|
-| Python | Core programming |
-| Flask | Web framework |
-| Selenium | Automation testing |
-| ReportLab | PDF generation |
-| PyPDF2 | PDF text extraction |
-| python-docx | DOCX extraction |
-| HTML/CSS | Frontend UI |
+|---|---|
+| 🐍 Python | Core Programming |
+| 🌐 Flask | Web Application Framework |
+| 🤖 Selenium | Automated Testing |
+| 📄 ReportLab | PDF Report Generation |
+| 📘 PyPDF2 | PDF Text Extraction |
+| 📝 python-docx | DOCX Parsing |
+| 🎨 HTML/CSS | Frontend Interface |
+
+</div>
 
 ---
 
@@ -95,19 +157,40 @@ Dashboard + PDF Report
 
 # ⚙️ Working Flow
 
-1. User uploads SRS document
-2. System extracts text
-3. Requirements are parsed
-4. Ambiguous words are detected
-5. Severity and scores are assigned
-6. Dashboard results are displayed
-7. PDF verification report is generated
+## 🪜 Step-by-Step Process
+
+### 1️⃣ Document Upload
+User uploads an SRS document.
+
+### 2️⃣ Text Extraction
+The system extracts textual content from:
+- PDF
+- DOCX
+- TXT
+
+### 3️⃣ Requirement Parsing
+Requirements are segmented and processed individually.
+
+### 4️⃣ Ambiguity Detection
+The NLP engine detects:
+- Weak verbs
+- Vague terminology
+- Ambiguous phrases
+
+### 5️⃣ Severity Classification
+Requirements are scored based on ambiguity intensity.
+
+### 6️⃣ Dashboard Visualization
+Interactive analytics are displayed to the user.
+
+### 7️⃣ PDF Verification Report
+Professional verification reports are generated automatically.
 
 ---
 
-# 📂 Project Structure
+# 🧬 Project Structure
 
-```text
+```bash
 requirement_ambiguity_system/
 │
 ├── app.py
@@ -131,7 +214,9 @@ requirement_ambiguity_system/
 
 # ▶️ How to Run the Project
 
-## 1️⃣ Install Dependencies
+---
+
+# 1️⃣ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -139,13 +224,15 @@ pip install -r requirements.txt
 
 ---
 
-## 2️⃣ Run Flask Application
+# 2️⃣ Run Flask Application
 
 ```bash
 python app.py
 ```
 
-Open browser:
+---
+
+# 3️⃣ Open Browser
 
 ```text
 http://127.0.0.1:5000
@@ -155,94 +242,203 @@ http://127.0.0.1:5000
 
 # 🧪 Selenium Automated Testing
 
-Run:
+Run automated validation using:
 
 ```bash
 python tests/test_upload.py srs_document.pdf
 ```
 
-This automatically:
-- Opens browser
-- Uploads file
-- Validates dashboard
-- Confirms successful analysis
+---
+
+# 🤖 Selenium Automatically Performs
+
+✅ Browser launch  
+✅ File upload validation  
+✅ Dashboard verification  
+✅ Workflow testing  
+✅ End-to-end analysis confirmation  
 
 ---
 
-# 📊 Example Output
+# 📊 Example System Output
 
-The system provides:
+The platform generates:
 
-- Total requirements
-- Ambiguous requirements
-- Clear requirements
-- Ambiguity percentage
-- Overall SRS quality score
-- Severity classification
-- Downloadable PDF report
+- 📄 Total requirements
+- ⚠️ Ambiguous requirements
+- ✅ Clear requirements
+- 📈 Ambiguity percentage
+- 🏆 Overall SRS quality score
+- 🔥 Severity classification
+- 📑 Downloadable PDF verification reports
 
 ---
 
 # 📘 SDLC Model Used
 
-## Incremental SDLC Model
+## 🔄 Incremental SDLC Model
 
-The project was developed incrementally in modules:
+The project was developed incrementally through modular phases:
 
 1. File Upload Module
 2. Text Extraction Module
-3. Ambiguity Detection Module
-4. Severity & Scoring Module
-5. Reporting Module
-6. Selenium Validation Module
+3. Requirement Parsing Module
+4. Ambiguity Detection Engine
+5. Severity & Scoring Engine
+6. Reporting System
+7. Selenium Validation Module
 
-Each module was independently developed, tested, and integrated.
+Each module was:
+- Independently designed
+- Tested separately
+- Integrated progressively
 
 ---
 
 # 🔍 Why This Project Is Unique
 
-- Focuses on **verification**, not just detection
-- Uses explainable rule-based NLP
-- Includes severity and quality scoring
-- End-to-end automation
-- Generates professional reports
-- Aligns strongly with SV&V concepts
+Unlike traditional text-analysis projects, this system focuses heavily on:
+
+✅ Software Verification & Validation (SV&V)  
+✅ Requirement Engineering principles  
+✅ Explainable rule-based NLP  
+✅ Quality scoring mechanisms  
+✅ End-to-end automated verification  
+✅ Professional report generation  
 
 ---
 
-# 🧠 Is This Text Mining?
+# 🧠 NLP & Requirement Engineering
 
-Partially uses NLP concepts, but this project primarily focuses on:
+This project partially incorporates NLP concepts, but primarily emphasizes:
 
-- Requirement Engineering
-- Software Verification & Validation
-- Rule-based Requirement Analysis
+- 📘 Requirement Engineering
+- 🧪 Software Verification & Validation
+- 🔍 Rule-Based Requirement Analysis
 
-rather than statistical text mining.
+rather than large-scale statistical text mining.
 
 ---
 
-# 📌 Future Enhancements
+# 📈 System Capabilities
+
+| Capability | Status |
+|---|---|
+| PDF Requirement Parsing | ✅ |
+| DOCX Parsing | ✅ |
+| TXT Support | ✅ |
+| Ambiguity Detection | ✅ |
+| Severity Classification | ✅ |
+| Quality Scoring | ✅ |
+| PDF Report Generation | ✅ |
+| Selenium Validation | ✅ |
+
+---
+
+# 🌍 Real-World Applications
+
+This project can be extended for:
+
+- 📄 SRS quality auditing
+- 🏢 Software quality assurance systems
+- 🧪 Requirement verification pipelines
+- 🤖 Intelligent requirement review tools
+- 📊 SDLC quality analytics
+- 🧠 AI-assisted requirement engineering
+- 🛡️ Enterprise software validation systems
+
+---
+
+# 🔭 Future Enhancements
+
+## Planned Extensions
 
 - AI-based requirement rewriting
+- Deep NLP integration
+- Transformer-based ambiguity detection
 - Section-wise SRS quality analysis
-- Advanced NLP integration
-- Cloud deployment
-- Multi-user support
+- Multi-user cloud deployment
+- Real-time collaborative review systems
+- Requirement recommendation engine
 
 ---
 
-# 👨‍💻 Developed By
+# 🎓 Intended Use
 
-- Adithyan P R
+This project is ideal for:
 
-# 📜 License
-
-This project is developed for academic and educational purposes.
+- Software engineering students
+- SV&V coursework
+- Final-year engineering projects
+- Research internships
+- NLP beginners
+- Requirement engineering studies
+- Academic GitHub portfolios
 
 ---
 
-# ⭐ GitHub Repository
+# 📄 License
 
-If you like this project, consider giving it a ⭐ on GitHub.
+This project is developed for:
+
+- Academic use
+- Educational purposes
+- Research experimentation
+- Portfolio development
+
+Feel free to:
+- Fork 🍴
+- Modify 🛠️
+- Extend 🚀
+- Experiment 🧠
+
+---
+
+# 👨‍💻 Author
+
+<div align="center">
+
+## Made with ❤️ by Adithyan P R
+
+📧 **Email:** adithyanprupasana@gmail.com  
+
+🔗 **LinkedIn:**  
+[Adithyan P R](https://www.linkedin.com/in/adithyan-p-r-36b79a250)
+
+</div>
+
+---
+
+# 🙌 Acknowledgement
+
+Developed as a Software Verification & Validation (SV&V) project combining:
+
+- Requirement Engineering
+- Rule-Based NLP
+- Automated Verification
+- Selenium Testing
+- Quality Scoring Systems
+
+Designed to improve software requirement clarity and reduce ambiguity during early SDLC phases.
+
+---
+
+<div align="center">
+
+# 🚀 From Ambiguous Requirements → Verified Software Specifications
+
+### *Where requirement engineering meets intelligent verification.*
+
+</div>
+
+---
+
+# ⭐ GitHub Support
+
+If you found this project useful:
+
+⭐ Star the repository  
+🍴 Fork the project  
+📢 Share it with others  
+
+</div>
